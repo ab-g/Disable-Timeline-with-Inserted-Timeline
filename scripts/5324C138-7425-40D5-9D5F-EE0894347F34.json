@@ -1,0 +1,67 @@
+{
+  "@class": "TimeLineScript",
+  "id": {
+    "uuid": "5324C138-7425-40D5-9D5F-EE0894347F34"
+  },
+  "name": "Animation",
+  "enableOnAwake": false,
+  "loop": false,
+  "jumpToFirstFrameAtEnd": false,
+  "speed": 1,
+  "weight": 1,
+  "loopStartTime": 0,
+  "loopDuration": 0,
+  "is_imported": false,
+  "type": "user",
+  "scripts": {
+    "@class": "StdListRuntimeScript",
+    "list": [
+      {
+        "@class": "AnimationScript",
+        "id": {
+          "uuid": "5E1AB934-4B8A-404A-88C6-DB14D7F1E906"
+        },
+        "name": "AnimationScript",
+        "enableOnAwake": false,
+        "OwnerLink": {
+          "@class": "BindingLink",
+          "targetId": {
+            "uuid": "71470BFA-5966-41AD-B61E-9AE461D18DC9"
+          },
+          "targetRelativeAddress": {
+            "@class": "NodeRelativeAddressBase",
+            "index": 1,
+            "name": "UserRootObject",
+            "subaddress": {
+              "@class": "NodeRelativeAddressBase",
+              "index": 4,
+              "name": "Play Box Animation - P"
+            }
+          }
+        },
+        "animation": {
+          "uuid": "7E86F118-9D4F-4382-8E2C-4BB7B674E2E3"
+        },
+        "AnimationType": "object3D",
+        "is_imported": false,
+        "isEnabled": true
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "@class": "KeyTrigger",
+      "id": {
+        "uuid": "CF9BE20F-B54F-43B6-B667-98B6D74D5620"
+      },
+      "ownerScriptId": {
+        "uuid": "5324C138-7425-40D5-9D5F-EE0894347F34"
+      },
+      "logicOperation": 0,
+      "resultType": 0,
+      "isInverted": false,
+      "keyCode": 68,
+      "state": 2
+    }
+  ]
+}
